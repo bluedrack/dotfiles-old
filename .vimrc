@@ -6,4 +6,6 @@ set number
 execute pathogen#infect()
 syntax on
 colorscheme Kafka
+hi LineNr ctermfg=1
+hi Folded ctermfg=1
 autocmd Filetype markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o<Space><C-r>%<Backspace><Backspace>pdf<Enter>

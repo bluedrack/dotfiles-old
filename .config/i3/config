@@ -182,8 +182,12 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 
 # bar
 bar {
- 	font xft:GohuFont, FontAwesome 10
+
+ 	font pango:GohuFont, FontAwesome 10
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+	i3bar_command i3bar -t
+	tray_padding 0
+	height 100
 	colors {
 		background $bg-color
 	    	separator #757575
