@@ -9,8 +9,8 @@
 
 hide_edge_borders both
 for_window [class="^.*"] border pixel 0 
-gaps inner 15 
-gaps outer 15
+gaps inner 10 
+gaps outer 10
 exec compton -CG
 exec feh --bg-scale ~/wallpaper/sagiri.png 
 set $mod Mod4
@@ -185,9 +185,10 @@ bar {
 
  	font pango:GohuFont, FontAwesome 10
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	i3bar_command i3bar -t
+	#status_command i3status -c ~/.config/i3/i3status.conf
+	#i3bar_command i3bar -t
 	tray_padding 0
-	height 100
+	height 25
 	colors {
 		background $bg-color
 	    	separator #757575
@@ -198,8 +199,7 @@ bar {
 	}
 }
 
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 200 -opacity "85" -bw 0 -bc     "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "GohuFont Regular 10"
-
+bindsym $mod+d exec rofi -show run -lines 3 -eh 2  -opacity "85" -bw 0 -bc     "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "GohuFont Regular 10"
 #exec firefox
 #exec atom
 #exec thunar
