@@ -6,7 +6,7 @@
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
-
+# Author Bluedrack28
 hide_edge_borders both
 for_window [class="^.*"] border pixel 0 
 gaps inner 10 
