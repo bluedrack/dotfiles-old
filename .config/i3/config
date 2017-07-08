@@ -187,7 +187,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # bar
 bar {
 
- 	font pango:GohuFont, FontAwesome 10
+ 	font pango:Terminus, FontAwesome 10
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	#status_command i3status -c ~/.config/i3/i3status.conf
 	#i3bar_command i3bar -t
@@ -203,5 +203,5 @@ bar {
 	}
 }
 
-bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 200 -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Terminess powerline 10"
-
+bindsym $mod+d exec rofi -show run -config $HOME/.config/i3/rofi.config -opacity "85" -font "Terminus Regular 10"
+#bindsym $mod+d exec rofi -show run -lines 3 -eh 2  -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Terminus Regular 10"

@@ -113,7 +113,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
-    source /usr/share/powerline/bindings/bash/powerline.sh
-fi
+#if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
+#    source /usr/share/powerline/bindings/bash/powerline.sh
+#fi
+
 #new line
+
+export PS1="\[\033[38;5;81m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;10m\][\w]\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"
