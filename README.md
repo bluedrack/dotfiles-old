@@ -1,8 +1,8 @@
 # My personal config for i3
 
-* This config is based on [i3-gaps](https://github.com/Airblader/i3)
+This config is based on [i3-gaps](https://github.com/Airblader/i3)
 
-* And some other tool :
+And some other tool :
 
 	* [Rofi](https://davedavenport.github.io/rofi/)
 	* [i3-blocks](https://github.com/Airblader/i3blocks-gaps)
@@ -10,7 +10,7 @@
 
 ## My desktop
 
-* My current desktop 
+My current desktop 
 
 ![Screenshot](Screenshot.png)
 
@@ -21,7 +21,7 @@
 
 ## More infos
 
-* I use also some useful tools  	
+I use also some useful tools  	
 	
 	* [Cmus](https://cmus.github.io/) or Spotify for my music
 	* [Ranger](http://ranger.nongnu.org/) as a console file manager	 
