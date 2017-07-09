@@ -4,9 +4,9 @@ This config is based on [i3-gaps](https://github.com/Airblader/i3)
 
 And some other tool :
 
-	* [Rofi](https://davedavenport.github.io/rofi/)
-	* [i3-blocks](https://github.com/Airblader/i3blocks-gaps)
-	* [powerline](https://github.com/powerline/powerline)
+* [Rofi](https://davedavenport.github.io/rofi/)
+* [i3-blocks](https://github.com/Airblader/i3blocks-gaps)
+* [powerline](https://github.com/powerline/powerline)
 
 ## My desktop
 
@@ -23,5 +23,5 @@ My current desktop
 
 I use also some useful tools  	
 	
-	* [Cmus](https://cmus.github.io/) or Spotify for my music
-	* [Ranger](http://ranger.nongnu.org/) as a console file manager	 
+* [Cmus](https://cmus.github.io/) or Spotify for my music
+* [Ranger](http://ranger.nongnu.org/) as a console file manager	 
