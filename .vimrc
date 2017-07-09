@@ -6,6 +6,14 @@ set number
 execute pathogen#infect()
 syntax on
 colorscheme Kafka
-hi LineNr ctermfg=1
+hi LineNr ctermfg=81
 hi Folded ctermfg=1
+
+
+" Config of the short cut
+nnoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+
+
+" inoremap ;f function<Space><++><Space>(<++>){<Enter>}<Esc>
+
 autocmd Filetype markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o<Space><C-r>%<Backspace><Backspace>pdf<Enter>
