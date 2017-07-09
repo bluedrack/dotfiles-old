@@ -2,7 +2,7 @@
 
 This config is based on [i3-gaps](https://github.com/Airblader/i3)
 
-And some other tool :
+And some other tools:
 
 * [Rofi](https://davedavenport.github.io/rofi/)
 * [i3-blocks](https://github.com/Airblader/i3blocks-gaps)
@@ -26,4 +26,14 @@ My current desktop
 I use also some useful tools  	
 	
 * [Cmus](https://cmus.github.io/) or Spotify for my music
-* [Ranger](http://ranger.nongnu.org/) as a console file manager	 
+* [Ranger](http://ranger.nongnu.org/) as a console file manager
+
+## Vim
+
+Plugins:
+
+* [Pathogen](https://github.com/tpope/vim-pathogen)
+* [Airline](https://github.com/vim-airline/vim-airline)
+* [NERDTree](https://github.com/scrooloose/nerdtree)
+
+I use a [Kafka](https://github.com/Konstruktionist/vim/blob/master/colors/Kafka.vim) as a main colorscheme, but I customize it a little.
