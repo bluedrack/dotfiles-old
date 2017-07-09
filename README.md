@@ -1,4 +1,4 @@
-#My personal config for i3
+# My personal config for i3
 
 * This config is based on [i3-gaps](https://github.com/Airblader/i3)
 
@@ -8,7 +8,7 @@
 	* [i3-blocks](https://github.com/Airblader/i3blocks-gaps)
 	* [powerline](https://github.com/powerline/powerline)
 
-##My desktop
+## My desktop
 
 * My current desktop 
 
@@ -19,7 +19,7 @@
 * Windows: [Arc-Dark](https://github.com/horst3180/arc-theme)
 * Firefox: [Arc-Dark](https://github.com/horst3180/arc-firefox-theme)
 
-##More infos
+## More infos
 
 * I use also some useful tools  	
 	
