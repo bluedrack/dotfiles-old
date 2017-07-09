@@ -18,8 +18,9 @@ My current desktop
 
 * Windows: [Arc-Dark](https://github.com/horst3180/arc-theme)
 * Firefox: [Arc-Dark](https://github.com/horst3180/arc-firefox-theme)
-* Font: [Terminus](https://github.com/powerline/fonts/tree/master/Terminus), [Terminess Powerline](https://github.com/powerline/fonts/tree/master/Terminus) and [FontAwesome](http://fontawesome.io/)
-
+* Fonts: [Terminus](https://github.com/powerline/fonts/tree/master/Terminus), [Terminess Powerline](https://github.com/powerline/fonts/tree/master/Terminus) and [FontAwesome](http://fontawesome.io/)
+* Icons: [Paper](https://snwh.org/paper)
+ 
 ## More infos
 
 I use also some useful tools  	
