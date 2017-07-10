@@ -35,5 +35,7 @@ Plugins:
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Airline](https://github.com/vim-airline/vim-airline)
 * [NERDTree](https://github.com/scrooloose/nerdtree)
+* [vim-javascipt](https://github.com/pangloss/vim-javascript)
+* [vim-snipmate](https://github.com/garbas/vim-snipmate)
 
 I use a [Kafka](https://github.com/Konstruktionist/vim/blob/master/colors/Kafka.vim) as a main colorscheme, but I customize it a little.
