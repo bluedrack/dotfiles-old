@@ -6,8 +6,9 @@ set number
 execute pathogen#infect()
 syntax on
 colorscheme Kafka
+let g:airline_theme='minimalist'
 hi LineNr ctermfg=255 ctermbg=240
-
+let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set mouse=a
 " Config of the short cut

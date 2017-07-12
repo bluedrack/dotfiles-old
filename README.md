@@ -16,17 +16,14 @@ My current desktop
 
 ## Themes
 
-* Windows: [Arc-Dark](https://github.com/horst3180/arc-theme)
+* Windows: [Arc-Dark](https://github.com/horst3180/arc-theme) and [compton](https://github.com/chjj/compton) for the opacity
 * Firefox: [Arc-Dark](https://github.com/horst3180/arc-firefox-theme)
 * Fonts: [Terminus](https://github.com/powerline/fonts/tree/master/Terminus), [Terminess Powerline](https://github.com/powerline/fonts/tree/master/Terminus) and [FontAwesome](http://fontawesome.io/)
 * Icons: [Paper](https://snwh.org/paper)
  
-## More infos
+## Terminal
 
-I use also some useful tools  	
-	
-* [Cmus](https://cmus.github.io/) or Spotify for my music
-* [Ranger](http://ranger.nongnu.org/) as a console file manager
+I use gnome-terminal with [gogh themes](https://github.com/Mayccoll/Gogh) particularly the One-dark
 
 ## Vim
 
@@ -39,3 +36,12 @@ Plugins:
 * [vim-snipmate](https://github.com/garbas/vim-snipmate)
 
 I use a [Kafka](https://github.com/Konstruktionist/vim/blob/master/colors/Kafka.vim) as a main colorscheme, but I customize it a little.
+
+
+## More infos
+
+I use also some useful tools  	
+	
+* [Cmus](https://cmus.github.io/) or Spotify for my music
+* [Ranger](http://ranger.nongnu.org/) as a console file manager
+
