@@ -6,7 +6,6 @@ And some other tools:
 
 * [Rofi](https://davedavenport.github.io/rofi/)
 * [i3-blocks](https://github.com/Airblader/i3blocks-gaps)
-* [powerline](https://github.com/powerline/powerline)
 
 ## My desktop
 
@@ -30,7 +29,7 @@ I use gnome-terminal with [gogh themes](https://github.com/Mayccoll/Gogh) partic
 Plugins:
 
 * [Pathogen](https://github.com/tpope/vim-pathogen)
-* [Airline](https://github.com/vim-airline/vim-airline)
+* [Airline](https://github.com/vim-airline/vim-airline), minimalist theme
 * [NERDTree](https://github.com/scrooloose/nerdtree)
 * [vim-javascipt](https://github.com/pangloss/vim-javascript)
 * [vim-snipmate](https://github.com/garbas/vim-snipmate)

@@ -13,7 +13,7 @@ for_window [class="^.*"] border pixel 0
 gaps inner 10 
 gaps outer 10
 exec compton -CG
-exec feh --bg-scale ~/wallpaper/sagiri.png 
+exec feh --bg-scale ~/wallpaper/berserk2.jpg 
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
