@@ -29,7 +29,7 @@ I use gnome-terminal with [gogh themes](https://github.com/Mayccoll/Gogh) partic
 Plugins:
 
 * [Pathogen](https://github.com/tpope/vim-pathogen)
-* [Airline](https://github.com/vim-airline/vim-airline), minimalist theme
+* [Airline](https://github.com/vim-airline/vim-airline) and [Airline-themes](http://github.com/vim-airline/vim-airline-themes)
 * [NERDTree](https://github.com/scrooloose/nerdtree)
 * [vim-javascipt](https://github.com/pangloss/vim-javascript)
 * [vim-snipmate](https://github.com/garbas/vim-snipmate)
