@@ -21,7 +21,7 @@ set $mod Mod4
 
 #font pango:System San Francisco Display 10
 #font pango:Siji 10
-font pango:GohuFont Regular 10
+font pango:Gohu Regular 10
 #font pango:FontAwesome 10
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -38,7 +38,8 @@ font pango:GohuFont Regular 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec termite
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -187,7 +188,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # bar
 bar {
 
- 	font pango:Terminus, FontAwesome 10
+	font pango:xos4 Terminus, FontAwesome 10
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	#status_command i3status -c ~/.config/i3/i3status.conf
 	#i3bar_command i3bar -t
@@ -203,5 +204,7 @@ bar {
 	}
 }
 
-bindsym $mod+d exec rofi -show run -config $HOME/.config/i3/rofi.conf -opacity 85 -font "Terminus Regular 10"
+bindsym $mod+d exec rofi -show run -config $HOME/.config/i3/rofi.conf -opacity 85 -font "xos4 Terminus 10"
 #bindsym $mod+d exec rofi -show run -lines 3 -eh 2  -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Terminus Regular 10"
+bindsym F5 exec kbdlight up 10
+bindsym F6 exec kbdlight down 10

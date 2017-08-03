@@ -22,7 +22,7 @@ My current desktop
  
 ## Terminal
 
-I use gnome-terminal with [gogh themes](https://github.com/Mayccoll/Gogh) particularly the One-dark
+I use termite with personal colors
 
 ## Vim
 

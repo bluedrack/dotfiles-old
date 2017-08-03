@@ -3,7 +3,10 @@ set laststatus=2
 set t_Co=256
 set nocompatible
 set number
+
 execute pathogen#infect()
+
+set encoding=utf-8
 syntax on
 colorscheme Kafka
 let g:airline_theme='minimalist'
@@ -16,7 +19,6 @@ map <C-n> :NERDTreeToggle<CR>
 nnoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 nmap <C-l> :bn!<CR>
 nmap <C-k> :bp!<CR>
-
 
 
 " inoremap ;f function<Space><++><Space>(<++>){<Enter>}<Esc>
