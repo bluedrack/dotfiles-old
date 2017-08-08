@@ -22,5 +22,7 @@ nmap <C-k> :bp!<CR>
 
 
 " inoremap ;f function<Space><++><Space>(<++>){<Enter>}<Esc>
-autocmd FileType html nnoremap <F10> :!firefox<Space>%<CR><CR> 
+autocmd FileType html nnoremap <F10> :!firefox<Space>%<CR><CR>
+autocmd FileType javascript nnoremap ;e a.addEventListener('<++>',(e) => {<CR><TAB><++><CR>}<ESC>
 autocmd FileType markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o<Space><C-r>%<Backspace><Backspace>pdf<CR><CR>
+
