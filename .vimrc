@@ -1,17 +1,16 @@
 "set rtp+=~/.local/lib/python2.7/site-packages/powerline/bindings/vim
+
 set laststatus=2
-set t_Co=256
+"set t_Co=256
 set nocompatible
 set number
-
 execute pathogen#infect()
-
 set encoding=utf-8
 syntax on
-colorscheme Kafka
-let g:airline_theme='minimalist'
-hi LineNr ctermfg=255 ctermbg=240
-let g:airline_powerline_fonts = 1
+"colorscheme Kafka
+let g:airline_theme='bubblegum'
+"hi LineNr ctermfg=255 ctermbg=240
+"let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 set mouse=a
 " Config of the short cut

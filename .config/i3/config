@@ -206,5 +206,5 @@ bar {
 
 bindsym $mod+d exec rofi -show run -config $HOME/.config/i3/rofi.conf -opacity 85 -font "xos4 Terminus 10"
 #bindsym $mod+d exec rofi -show run -lines 3 -eh 2  -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Terminus Regular 10"
-bindsym F5 exec kbdlight down 10
-bindsym F6 exec kbdlight up 10
+bindsym $mod+F5 exec kbdlight down 10
+bindsym $mod+F6 exec kbdlight up 10
