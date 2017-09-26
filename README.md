@@ -39,7 +39,7 @@ I use a [Kafka](https://github.com/Konstruktionist/vim/blob/master/colors/Kafka.
 
 ## More infos
 
-I use also some useful tools  	
+I use also some useful tools
 	
 * [Cmus](https://cmus.github.io/) or Spotify for my music
 * [Ranger](http://ranger.nongnu.org/) as a console file manager
