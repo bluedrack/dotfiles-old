@@ -1,7 +1,10 @@
+
+# My personal config for i3
+
 <a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/zZDtAG7LfgjRrpGbJyVYoc9Z/Bluedrack28/config'>
   <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/zZDtAG7LfgjRrpGbJyVYoc9Z/Bluedrack28/config.svg' />
 </a>
-# My personal config for i3
+
 
 This config is based on [i3-gaps](https://github.com/Airblader/i3)
 
