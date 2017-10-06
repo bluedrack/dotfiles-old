@@ -119,6 +119,7 @@ fi
 
 #Update your system with this command
 alias update='pacman -Syyuu'
+
 #Shortcut to translate word
 alias trs='trans -b'
 
