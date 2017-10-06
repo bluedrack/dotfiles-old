@@ -117,6 +117,20 @@ fi
 #    source /usr/share/powerline/bindings/bash/powerline.sh
 #fi
 
-#new line
+#Update your system with this command
+alias update='pacman -Syyuu'
+#Shortcut to translate word
 alias trs='trans -b'
+
+#Go to the main folder 
+alias cdp='cd ~/Documents/Programmes'
+alias cdd='cd ~/Documents'
+alias cdi='cd ~/Images'
+alias cdt='cd ~/Téléchargements'
+
+#Open the config file quicker
+alias vcb='vim ~/.bashrc'
+alias vci='vim ~/.config/i3/config'
+
+#new line
 export PS1="\[\033[38;5;81m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;10m\][\w]\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"
