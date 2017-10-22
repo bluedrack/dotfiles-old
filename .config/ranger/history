@@ -1,0 +1,10 @@
+edit
+delete Ant.tar.xz_
+delete Ant.tar.xz_0
+rename Téléchargements
+rename Public
+rename Musique
+
+shell vim
+Q
+rename Bureau
