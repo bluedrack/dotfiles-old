@@ -134,16 +134,20 @@ alias mp='cd ~/Documents/Programmes'
 alias md='cd ~/Documents'
 alias mi='cd ~/Images'
 alias mt='cd ~/Téléchargements'
+alias me='cd ~/Documents/Ecole'
 
 #Open the config file quicker
 alias vcb='vim ~/.bashrc'
 alias vci='vim ~/.config/i3/config'
 alias vcr='vim ~/.config/ranger/rc.conf'
 alias vcv='vim ~/.vimrc'
+
 #Gestion of the trash
 alias lt='ls -1 ~/.Trash'
 alias totr='mv -t ~/.Trash'
 alias rmt='rm -rf ~/.Trash/*'
+#Create file from exemples
+alias mklp='cp .exemples/latex/paper.lex'
 
 #new line
 export PS1="\[\033[38;5;81m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;10m\][\w]\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"

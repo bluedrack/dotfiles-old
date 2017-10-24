@@ -1,8 +1,6 @@
-! ------------------------------------------------------------------------------
-! ROFI Color theme
-! ------------------------------------------------------------------------------
 rofi.color-enabled: true
 rofi.color-window: #2f343f, #ffffff, #ffffff
 rofi.color-normal: argb:2000000, #ffffff, #2f343f, #000000, #ffffff
 rofi.color-active: #2f343f, #268bd2, #2f343f, #268bd2, #2f343f
 rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
+rofi.theme: /usr/share/rofi/themes//sidebar.rasi
