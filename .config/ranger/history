@@ -4,7 +4,10 @@ delete Ant.tar.xz_0
 rename Téléchargements
 rename Public
 rename Musique
-
 shell vim
 Q
+cd 
 rename Bureau
+shell mkdir test1
+w
+

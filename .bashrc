@@ -113,13 +113,10 @@ if ! shopt -oq posix; then
   fi
 fi
 
-#if [ -f /usr/share/powerline/bindings/bash/powerline.sh ]; then
-#    source /usr/share/powerline/bindings/bash/powerline.sh
-#fi
-
 #Edit a projet with code
 alias C='code .'
 alias A='atom .'
+
 #Edit todo
 alias to='vim ~/Documents/TODO.md'
 
@@ -146,8 +143,9 @@ alias vcv='vim ~/.vimrc'
 alias lt='ls -1 ~/.Trash'
 alias totr='mv -t ~/.Trash'
 alias rmt='rm -rf ~/.Trash/*'
+
 #Create file from exemples
-alias mklp='cp .exemples/latex/paper.lex'
+alias mklp='cp ~/.exemples/latex/paper.tex'
 
 #new line
 export PS1="\[\033[38;5;81m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;10m\][\w]\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"

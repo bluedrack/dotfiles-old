@@ -22,4 +22,13 @@ nmap <C-k> :bp!<CR>
 autocmd FileType html nnoremap <F10> :!firefox<Space>%<CR><CR>
 autocmd FileType javascript nnoremap ;e a.addEventListener('<++>',(e) => {<CR><TAB><++><CR>})<ESC>
 autocmd FileType markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o<Space><C-r>%<Backspace><Backspace>pdf<CR><CR>
-autocmd FileType plaintex nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<Space>-o<Space><C-r>%<Backspace><Backspace><Backspace><Backspace>pdf<CR><CR>
+
+autocmd FileType tex nnoremap <C-p> :!pdflatex<Space>%<CR><CR>
+autocmd FileType tex nnoremap <C-o> :!evince<Space>%<Backspace><Backspace><Backspace>pdf<CR>
+autocmd FileType tex imap é \'{e}
+autocmd FileType tex imap à \`{a}
+autocmd FileType tex imap ù \`{u} 
+autocmd FileType tex imap î \^{i}
+autocmd FileType tex imap é \`{e}
+autocmd FileType tex imap ç \c
+autocmd FileType tex imap ;s \section{<++>}<CR><++><ESC><Space><Space>
