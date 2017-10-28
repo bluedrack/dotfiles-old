@@ -1,4 +1,3 @@
-
 set laststatus=2
 set nocompatible
 set number
@@ -11,7 +10,7 @@ set mouse=a
 set spelllang=fr
 
 " Config of the shortcut
-
+set shell=/bin/bash\ -i
 map <C-n> :NERDTreeToggle<CR>
 nmap cor :set spell<CR>
 nmap ncor :set nospell<CR>
