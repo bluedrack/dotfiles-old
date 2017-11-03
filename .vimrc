@@ -8,13 +8,13 @@ let g:airline_theme='bubblegum'
 let g:airline#extensions#tabline#enabled = 1
 set mouse=a
 set spelllang=fr
-
+let g:livepreview_previewer = 'xpdf'
 " Config of the shortcut
-set shell=/bin/bash\ -i
+"set shell=/bin/bash\ -i
 map <C-n> :NERDTreeToggle<CR>
 nmap cor :set spell<CR>
 nmap ncor :set nospell<CR>
-nnoremap <Space><Space> <Esc>/<Enter>"_c4l
+nnoremap <Space><Space> <Esc>/<++><CR>"_c4l
 nmap <C-l> :bn!<CR>
 nmap <C-k> :bp!<CR>
 
@@ -23,11 +23,14 @@ autocmd FileType javascript nnoremap ;e a.addEventListener('<++>',(e) => {<CR><T
 autocmd FileType markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o<Space><C-r>%<Backspace><Backspace>pdf<CR><CR>
 
 autocmd FileType tex nnoremap <C-p> :!pdflatex<Space>%<CR><CR>
-autocmd FileType tex nnoremap <C-o> :!evince<Space>%<Backspace><Backspace><Backspace>pdf<CR>
+autocmd FileType tex nnoremap <C-o> :!evince<Space>'%:t:r'.pdf<Space>&<CR><CR>
 autocmd FileType tex imap é \'{e}
 autocmd FileType tex imap à \`{a}
 autocmd FileType tex imap ù \`{u} 
 autocmd FileType tex imap î \^{i}
-autocmd FileType tex imap é \`{e}
-autocmd FileType tex imap ç \c
+autocmd FileType tex imap è \`{e}
+autocmd FileType tex imap ç \c c
+autocmd FileType tex imap û \^{u}
+autocmd FileType tex imap ê \^{e}
+autocmd FileType tex imap ;ge \newglossaryentry{<++>}{<CR><Tab>name=<++>,<CR>description={<++>}<CR><Backspace>}<ESC><Space><Space>
 autocmd FileType tex imap ;s \section{<++>}<CR><++><ESC><Space><Space>
