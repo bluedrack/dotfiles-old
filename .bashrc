@@ -128,6 +128,7 @@ alias trs='trans -b'
 
 #Go to the main folder 
 alias mp='cd ~/Documents/Programmes'
+alias mtm='cd ~/Documents/Programmes/TM'
 alias md='cd ~/Documents'
 alias mi='cd ~/Images'
 alias mt='cd ~/Téléchargements'

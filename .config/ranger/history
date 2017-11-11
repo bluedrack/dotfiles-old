@@ -12,3 +12,5 @@ shell mkdir test1
 w
 
 vcv
+rename .Trash
+delete

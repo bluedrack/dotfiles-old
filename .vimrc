@@ -1,14 +1,14 @@
 set laststatus=2
 set nocompatible
 set number
-execute pathogen#infect()
+"execute pathogen#infect()
 set encoding=utf-8
 syntax on
-let g:airline_theme='bubblegum'
-let g:airline#extensions#tabline#enabled = 1
+"let g:airline_theme='bubblegum'
+"let g:airline#extensions#tabline#enabled = 1
 set mouse=a
 set spelllang=fr
-let g:livepreview_previewer = 'xpdf'
+"let g:livepreview_previewer = 'xpdf'
 " Config of the shortcut
 "set shell=/bin/bash\ -i
 map <C-n> :NERDTreeToggle<CR>
