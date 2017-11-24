@@ -1,16 +1,23 @@
 edit
 delete Ant.tar.xz_
 delete Ant.tar.xz_0
-rename Téléchargements
-rename Public
 rename Musique
 shell vim
 Q
 cd 
-rename Bureau
 shell mkdir test1
 w
-
 vcv
 rename .Trash
 delete
+open_with nano
+open_with gedit
+rename IBureau
+rename Bureau
+rename Documents
+rename Téléchargements
+
+rename Public
+open_with firefox
+open_with firefox &
+rename Modèles

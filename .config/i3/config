@@ -113,9 +113,9 @@ bindsym $mod+2 workspace $ws2
 bindsym $mod+3 workspace $ws3
 bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
-bindsym $mod+6 workspace $w6
-bindsym $mod+7 workspace $w7
-bindsym $mod+8 workspace $w8
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
 bindsym $mod+9 workspace $ws9
 bindsym $mod+0 workspace $ws10
 
@@ -172,8 +172,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg-color 	         #2f343f
-set $inactive-bg-color   #2f343f
+set $bg-color 	         #0C1523
+set $inactive-bg-color   #0C1523
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #E53935
@@ -188,7 +188,7 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # bar
 bar {
 
-	font pango:Monaco, FontAwesome 10
+	font pango:Source Code Pro Medium, FontAwesome 10
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
 	#status_command i3status -c ~/.config/i3/i3status.conf
 	#i3bar_command i3bar -t
@@ -204,7 +204,7 @@ bar {
 	}
 }
 
-bindsym $mod+d exec rofi -show run  -font "Monaco 10"
+bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11"
 #bindsym $mod+d exec rofi -show run -lines 3 -eh 2  -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Terminus Regular 10"
 bindsym $mod+F5 exec kbdlight down 10
 bindsym $mod+F6 exec kbdlight up 10

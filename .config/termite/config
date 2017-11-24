@@ -7,7 +7,7 @@ allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = Monaco 11
+font = Source Code Pro Medium 12 
 scrollback_lines = 10000
 search_wrap = true
 #icon_name = terminal
@@ -20,29 +20,29 @@ cursor_blink = system
 cursor_shape = block
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-#browser = xdg-open
+browser = xdg-open
 
 # set size hints for the window
-#size_hints = false
+size_hints = false
 
 # Hide links that are no longer valid in url select overlay mode
 filter_unmatched_urls = true
 
 # emit escape sequences for extra modified keys
-#modify_other_keys = false
+modify_other_keys = false
 
 [colors]
 #cursor = #dcdccc
 #cursor_foreground = #dcdccc
-foreground = #dcdccc
-foreground_bold = #ffffff
-background = #3f3f3f
+#foreground = #dcdccc
+#foreground_bold = #ffffff
+#background = #3f3f3f
 
 # 20% background transparency (requires a compositor)
-background = rgba(63, 63, 63, 0.8)
+background = rgba(0, 0, 0, 0.8)
 
 # if unset, will reverse foreground and background
-highlight = #2f2f2f
+#highlight = #2f2f2f
 
 # colors from color0 to color254 can be set
 #color0 = #3f3f3f
@@ -63,9 +63,9 @@ highlight = #2f2f2f
 #color15 = #ffffff
 
 # special
-foreground      = #a7a7a7
-foreground_bold = #a7a7a7
-cursor          = #a7a7a7
+#foreground      = #a7a7a7
+#foreground_bold = #a7a7a7
+#cursor          = #a7a7a7
 #background      = #1e1e1e
 
 # black

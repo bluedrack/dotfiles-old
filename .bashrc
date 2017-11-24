@@ -126,6 +126,9 @@ alias update='sudo pacman -Syyuu'
 #Shortcut to translate word
 alias trs='trans -b'
 
+#Shortcut to download song
+alias songdl='python spotdl.py'
+
 #Go to the main folder 
 alias mp='cd ~/Documents/Programmes'
 alias mtm='cd ~/Documents/Programmes/TM'
