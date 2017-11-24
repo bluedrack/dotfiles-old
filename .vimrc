@@ -11,7 +11,7 @@ set spelllang=fr
 "let g:livepreview_previewer = 'xpdf'
 " Config of the shortcut
 "set shell=/bin/bash\ -i
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 nmap cor :set spell<CR>
 nmap ncor :set nospell<CR>
 nnoremap <Space><Space> <Esc>/<++><CR>"_c4l

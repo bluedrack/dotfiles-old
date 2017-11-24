@@ -137,6 +137,7 @@ alias mi='cd ~/Images'
 alias mt='cd ~/Téléchargements'
 alias me='cd ~/Documents/Ecole'
 alias mb='cd ~/Documents/Excaliburne'
+
 #Open the config file quicker
 alias vcb='vim ~/.bashrc'
 alias vci='vim ~/.config/i3/config'
