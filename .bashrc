@@ -131,7 +131,7 @@ alias songdl='python spotdl.py'
 
 #Go to the main folder 
 alias mp='cd ~/Documents/Programmes'
-alias mtm='cd ~/Documents/Programmes/TM'
+alias mtm='cd ~/Documents/Programmes/TM_Algo'
 alias md='cd ~/Documents'
 alias mi='cd ~/Images'
 alias mt='cd ~/Téléchargements'
