@@ -143,7 +143,7 @@ alias vcb='vim ~/.bashrc'
 alias vci='vim ~/.config/i3/config'
 alias vcr='vim ~/.config/ranger/rc.conf'
 alias vcv='vim ~/.vimrc'
-
+alias vct='vim ~/.config/termite/config'
 #Gestion of the trash
 alias lt='ls -1 ~/.Trash'
 alias totr='mv -t ~/.Trash'

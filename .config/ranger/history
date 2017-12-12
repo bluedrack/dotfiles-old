@@ -13,11 +13,18 @@ delete
 open_with nano
 open_with gedit
 rename IBureau
-rename Bureau
-rename Documents
 rename Téléchargements
-
 rename Public
-open_with firefox
 open_with firefox &
 rename Modèles
+open_with firefox
+help
+viewmode
+Vidéos
+rename Bureau
+shell 
+rename Documents
+! sudo vim Pop-Dark.rasi
+rename wallpaper
+
+open_with vim

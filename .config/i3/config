@@ -8,14 +8,15 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 # Author Bluedrack28
 
+set $ter termite
+
 hide_edge_borders both
 for_window [class="^.*"] border pixel 0 
-gaps inner 10 
-gaps outer 10
+gaps inner 5 
+gaps outer 5
 exec compton -CG
 exec feh --bg-scale ~/wallpaper/berserk2.jpg 
 set $mod Mod4
-
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 
@@ -38,8 +39,8 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec termite
-
+bindsym $mod+Return exec $ter
+bindsym $mod+r exec $ter -e ranger
 # kill focused window
 bindsym $mod+Shift+q kill
 bindsym $mod+q 	kill
@@ -135,7 +136,6 @@ assign [class="Atom"]		$ws1
 assign [class="Code"]		$ws1
 assign [class="Firefox"]	$ws2
 assign [class="Thunar"]		$ws3
-#assign [class="Libreoffice"]	$ws4
 assign [class="spotify" ]	$ws9
 assign [class="discord"] 	$ws10
 
@@ -170,7 +170,7 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-bindsym $mod+r mode "resize"
+bindsym $mod+Ctrl+r mode "resize"
 
 set $bg-color 	         #0C1523
 set $inactive-bg-color   #0C1523
@@ -205,7 +205,7 @@ bar {
 }
 
 bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11"
-#bindsym $mod+d exec rofi -show run -lines 3 -eh 2  -opacity "85" -bw 0 -bc "$bg-color" -bg "$bg-color" -fg "$text-color" -hlbg "$bg-color" -hlfg "#9575cd" -font "Terminus Regular 10"
 bindsym $mod+F5 exec kbdlight down 10
 bindsym $mod+F6 exec kbdlight up 10
+exec --no-startup-id i3-msg 'workspace $ws3; exec termite -e ranger; workspace $ws1 '
 
