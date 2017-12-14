@@ -24,17 +24,10 @@ autocmd FileType markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o
 
 autocmd FileType tex nnoremap <C-p> :!pdflatex<Space>%<CR><CR>
 autocmd FileType tex nnoremap <C-o> :!evince<Space>'%:t:r'.pdf<Space>&<CR><CR>
-"autocmd FileType tex imap é \'{e}
-"autocmd FileType tex imap à \`{a}
-"autocmd FileType tex imap ù \`{u} 
-"autocmd FileType tex imap î \^{i}
-"autocmd FileType tex imap è \`{e}
-"autocmd FileType tex imap ç \c c
-"autocmd FileType tex imap û \^{u}
-"autocmd FileType tex imap ê \^{e}
 autocmd FileType tex imap ;ge \newglossaryentry{<++>}{<CR><Tab>name=<++>,<CR>description={<++>}<CR><Backspace>}<ESC><Space><Space>
 autocmd FileType tex imap ;s \section{<++>}<CR><++><ESC><Space><Space>
 autocmd FileType tex imap ;enum \begin{enumerate}<CR>\item <++><CR><++><CR>\end{enumerate}<CR><++><ESC><Space><Space>
 autocmd FileType tex imap ;l \begin{itemize}<CR>\item <++><CR><++><CR>\end{itemize}<CR><++><ESC><Space><Space>
-
 autocmd FileType tex imap ;i \item <++><CR><++><ESC><Space><Space>
+autocmd FileType tex imap ;tab \begin{tabular}{<++>}<CR><++><CR>\end{tabular}<ESC><Space><Space>
+autocmd FileType tex imap ;te \hline<CR><++> & <++> \\<CR><++><ESC><Space><Space>
