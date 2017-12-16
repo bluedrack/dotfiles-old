@@ -1,0 +1,43 @@
+.main {
+    background-color: #0C1323;
+    color: white;
+    font-family: "Source Code Pro";
+}
+.text {
+}
+.header {
+    position: relative;
+    /*align-content: center;*/
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+
+}
+
+.items {
+    list-style-type: none;
+    position: relative;
+    /*left: 50%;*/
+    text-align: center;
+    /*margin: 0;*/
+}
+
+ul {
+    /*text-align: center;*/
+    list-style-type: none;
+}
+a { 
+    text-decoration: none;
+    color : white;
+    margin: 10;
+    display: inline-block;
+    display: block;
+    padding: 20px;
+    background-color: rgb(40, 53, 82);
+}
+
+p {
+    
+    
+}
