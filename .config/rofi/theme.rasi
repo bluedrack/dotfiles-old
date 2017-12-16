@@ -1,6 +1,6 @@
 /**
- * User: qball
- * Copyright: Dave Davenport
+ * User: Bluedrack28
+ * Copyright: Bluedrack28
  */
 * {
     text-color:  #ffffff;
@@ -23,7 +23,7 @@
     lightyellow:     #ffa75d;
     //
     // Blue
-    blue:      #6495ed;
+    blue:      #ffffff;
     lightblue:     #87ceeb;
     //
     // Magenta
@@ -39,17 +39,17 @@
     lightwhite:     #ffffff;
     //
     // Bold, Italic, Underline
-    highlight:     bold #ffffff;
+    highlight:     bold #ee2b47;
 }
 #window {
     //fullscreen: true;
     //location: west;
-    //anchor:   west;
-    //border:  0px 2px 0px 0px;
+    anchor:   center;
+    border:  none;
     text-color: @lightwhite;
-    padding: 0;
+    padding: none;
     //orientation: horizontal;
-    children: [mainbox, dummy];
+    //children: [mainbox, dummy];
 }
 
 #dummy {
@@ -57,7 +57,7 @@
 }
 
 #sidebar {
-    border: 2px 0px 0px 0px;
+    border: 0px 0px 0px 0px;
     background-color: @lightblack;
     padding: 10px;
 }
@@ -72,7 +72,7 @@
     background-color: @lightblack;
     text-color: @lightgreen;
     padding: 4px;
-    border: 0px 0px 2px 0px;
+    border: 0px 0px 0px 0px;
 }
 #mainbox {
     expand: false;
@@ -80,11 +80,12 @@
     spacing: 1em;
 }
 #listview {
-    padding: 0em 0.4em 0em 1em;
+    padding: 0em 0.4em 0.4em 1em;
     dynamic: false;
     lines: 10;
 }
 #element selected  normal {
+    text-color: #000000;
     background-color: @blue;
 }
 #element normal active {

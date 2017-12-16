@@ -176,13 +176,13 @@ set $bg-color 	         #0C1523
 set $inactive-bg-color   #0C1523
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
+set $urgent-bg-color     #ee2b47
 
 # window colors
 #                       border              background         text                 indicator
 client.focused          $bg-color           $bg-color          $text-color          #00ff00
-client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
-client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #00ff00
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color  #00ff00
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color  #00ff00
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
 
 # bar
@@ -190,8 +190,6 @@ bar {
 
 	font pango:Source Code Pro Medium, FontAwesome 10
 	status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	#status_command i3status -c ~/.config/i3/i3status.conf
-	#i3bar_command i3bar -t
 	tray_padding 0
 	height 20
 	colors {
@@ -200,12 +198,12 @@ bar {
 		#                  border             background         text
 		focused_workspace  $bg-color          $bg-color          $text-color
 		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+		urgent_workspace   $bg-color          $bg-color          $urgent-bg-color
 	}
 }
 
 bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11"
 bindsym $mod+F5 exec kbdlight down 10
 bindsym $mod+F6 exec kbdlight up 10
-exec --no-startup-id i3-msg 'workspace $ws3; exec termite -e ranger; workspace $ws1 '
+exec --no-startup-id i3-msg 'workspace $ws3; exec termite -e ranger; workspace $ws1'
 

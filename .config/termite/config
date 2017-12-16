@@ -81,8 +81,9 @@ color2  = #8f9d6a
 color10 = #8f9d6a
 
 # yellow
-color3  = #f9ee98
-color11 = #f9ee98
+color3  = #ee2b47
+# vim number
+color11 = #ee2b47
 
 # blue
 color4  = #7587a6
@@ -97,7 +98,7 @@ color6  = #afc4db
 color14 = #afc4db
 
 # white
-color7  = #a7a7a7
+color7  = #DBDBDB
 color15 = #ffffff
 
 [hints]
