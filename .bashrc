@@ -121,7 +121,7 @@ alias A='atom .'
 alias to='vim ~/Documents/TODO.md'
 
 #Update your system with this command
-alias update='sudo pacman -Syyuu'
+alias update='sudo trizen -Syyuua'
 
 #Shortcut to translate word
 alias trs='trans -b'
