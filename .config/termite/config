@@ -17,7 +17,7 @@ search_wrap = true
 cursor_blink = system
 
 # "block", "underline" or "ibeam"
-cursor_shape = block
+cursor_shape = underline
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
 browser = xdg-open
@@ -68,8 +68,8 @@ color4  = #78c2c3
 color12 = #78c2c3
 
 # magenta
-color5  = #849561
-color13 = #849561
+color5  = #2fc5cc
+color13 = #2fc5cc
 
 # cyan
 color6  = #849561

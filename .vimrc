@@ -1,6 +1,8 @@
 set laststatus=2
 set nocompatible
+set t_Co=16
 set number
+set relativenumber
 "execute pathogen#infect()
 set encoding=utf-8
 syntax on
