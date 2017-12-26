@@ -101,13 +101,19 @@ bindsym $mod+a focus parent
 # focus the child container
 #bindsym $mod+d focus child
 
-set $ws1 "1: "
-set $ws2 "2: "
-set $ws3 "3: "
-set $ws4 "4: "
-set $ws9 "9: "
-set $ws10 "10: "
-
+set $ws1 "1: "
+set $ws2 "2: " 
+set $ws3 "3: " 
+#set $ws4 "4: "
+#set $ws9 "9: "
+#set $ws10 "10: "
+set $ws4 folder 
+set $ws5 folder 
+set $ws6 folder 
+set $ws7 folder 
+set $ws8 folder 
+set $ws9 folder 
+set $ws10 folder 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -186,24 +192,26 @@ client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-col
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
 
 # bar
-bar {
-
-	font pango:Source Code Pro Medium, FontAwesome 10
-	status_command i3blocks -c ~/.config/i3/i3blocks.conf
-	tray_padding 0
-	height 20
-	colors {
-		background $bg-color
-	    	separator #757575
-		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
-		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-		urgent_workspace   $bg-color          $bg-color          $urgent-bg-color
-	}
-}
+#bar {
+#
+#	font pango:Source Code Pro Medium, FontAwesome 10
+#	status_command i3blocks -c ~/.config/i3/i3blocks.conf
+#	tray_padding 0
+#	height 20
+#	colors {
+#		background $bg-color
+#	    	separator #757575
+#		#                  border             background         text
+#		focused_workspace  $bg-color          $bg-color          $text-color
+#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+#		urgent_workspace   $bg-color          $bg-color          $urgent-bg-color
+#	}
+#}
 
 bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11"
+
 bindsym $mod+F5 exec kbdlight down 10
 bindsym $mod+F6 exec kbdlight up 10
+exec --no-startup-id polybar example
 exec --no-startup-id i3-msg 'workspace $ws3; exec termite -e ranger; workspace $ws1'
 
