@@ -1,17 +1,12 @@
 
-# My personal config for i3
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/zZDtAG7LfgjRrpGbJyVYoc9Z/Bluedrack28/config'>
-  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/zZDtAG7LfgjRrpGbJyVYoc9Z/Bluedrack28/config.svg' />
-</a>
-
+# My personal config for i3-gaps
 
 This config is based on [i3-gaps](https://github.com/Airblader/i3)
 
-And some other tools:
+And some other toolsi for i3:
 
 * [Rofi](https://davedavenport.github.io/rofi/)
-* [i3-blocks](https://github.com/Airblader/i3blocks-gaps)
+* [Polybar](https://github.com/jaagr/polybar)
 
 ## My desktop
 
@@ -19,34 +14,12 @@ My current desktop
 
 ![Screenshot](Screenshot.png)
 
-## Themes
-
-* Windows: [Arc-Dark](https://github.com/horst3180/arc-theme) and [compton](https://github.com/chjj/compton) for the opacity
-* Firefox: [Arc-Dark](https://github.com/horst3180/arc-firefox-theme)
-* Fonts: [Terminus](https://github.com/powerline/fonts/tree/master/Terminus), [Terminess Powerline](https://github.com/powerline/fonts/tree/master/Terminus) and [FontAwesome](http://fontawesome.io/)
-* Icons: [Paper](https://snwh.org/paper)
- 
 ## Terminal
 
-I use termite with personal colors
+I use URxvt with personal colors
 
-## Vim
+## Tools
 
-Plugins:
-
-* [Pathogen](https://github.com/tpope/vim-pathogen)
-* [Airline](https://github.com/vim-airline/vim-airline) and [Airline-themes](http://github.com/vim-airline/vim-airline-themes)
-* [NERDTree](https://github.com/scrooloose/nerdtree)
-* [vim-javascipt](https://github.com/pangloss/vim-javascript)
-* [vim-snipmate](https://github.com/garbas/vim-snipmate)
-
-I use a [Kafka](https://github.com/Konstruktionist/vim/blob/master/colors/Kafka.vim) as a main colorscheme, but I customize it a little.
-
-
-## More infos
-
-I use also some useful tools
-	
-* [Cmus](https://cmus.github.io/) or Spotify for my music
-* [Ranger](http://ranger.nongnu.org/) as a console file manager
-
+* File manager : [Ranger](https://github.com/ranger/ranger)
+* Connection manager : nmtui
+* Vim  
