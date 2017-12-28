@@ -8,14 +8,14 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 # Author Bluedrack28
 
-set $ter termite
+set $ter urxvt 
 
 hide_edge_borders both
 for_window [class="^.*"] border pixel 0 
 gaps inner 5 
 gaps outer 5
 exec compton -CG
-exec feh --bg-scale ~/wallpaper/berserk2.jpg 
+exec feh --bg-scale ~/wallpaper/current/*
 set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -213,5 +213,5 @@ bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11"
 bindsym $mod+F5 exec kbdlight down 10
 bindsym $mod+F6 exec kbdlight up 10
 exec --no-startup-id polybar example
-exec --no-startup-id i3-msg 'workspace $ws3; exec termite -e ranger; workspace $ws1'
+exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
 

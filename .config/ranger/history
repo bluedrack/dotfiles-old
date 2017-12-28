@@ -6,10 +6,8 @@ shell vim
 Q
 cd 
 shell mkdir test1
-w
 vcv
 rename .Trash
-delete
 open_with nano
 open_with gedit
 rename IBureau
@@ -33,3 +31,14 @@ set colorscheme jungle
 set colorscheme snow
 set colorscheme solorized
 set colorscheme custom
+mkdir current
+w
+shell echo $TERM
+open_with shell
+open_with bash
+mkdir 
+mkdir yolo
+rename texput.pdf
+rm
+delete 
+delete

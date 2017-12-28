@@ -87,6 +87,6 @@ color15 = #ffffff
 #active_background = #3f3f3f
 #padding = 2
 #border = #3f3f3f
-#border_width = 0.5
-#roundness = 2.0
+#border_width = 10
+#roundness = 10.0
 #vim: ft=dosini cms=#%s
