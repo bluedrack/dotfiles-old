@@ -212,6 +212,8 @@ bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11"
 
 bindsym $mod+F5 exec kbdlight down 10
 bindsym $mod+F6 exec kbdlight up 10
+bindsym $mod+F2 exec light -A 10 # increase screen brightness
+bindsym $mod+F1 exec light -U 10 # decrease screen bright
 exec --no-startup-id polybar example
 exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
 
