@@ -152,5 +152,33 @@ alias rmt='rm -rf ~/.Trash/*'
 #Create file from exemples
 alias mklp='cp ~/.exemples/latex/paper.tex'
 
+# DO NOT DELETE LMAO
+alias h="cd ~ && ls -a"
+alias d="cd ~/Documents && ls -a"
+alias e="cd ~/Documents/Ecole && ls -a"
+alias b="cd ~/Documents/Excaliburne && ls -a"
+alias p="cd ~/Documents/Programmes && ls -a"
+alias tm="cd ~/Documents/Programmes/TM_Algo && ls -a"
+alias t="cd ~/Téléchargements && ls -a"
+alias i="cd ~/Images && ls -a"
+alias v="cd ~/Videos && ls -a"
+alias m="cd ~/Musique && ls -a"
+alias s="cd ~/.config/Scripts && ls -a"
+alias r="cd / && ls -a"
+alias cf="cd ~/.config && ls -a"
+alias cfb="vim ~/.bashrc"
+alias cfz="vim ~/.zshrc"
+alias cfv="vim ~/.config/Scripts/vimrc"
+alias cfr="vim ~/.config/ranger/rc.conf.base"
+alias cfi="vim ~/.config/i3/config"
+alias cfq="vim ~/.config/qutebrowser/config.py"
+alias cff="vim ~/.config/Scripts/folders"
+alias cfc="vim ~/.config/Scripts/configs"
+alias cft="vim ~/.config/termite/config"
+alias cfT="vim ~/.config/Scripts/tmux.conf"
+alias cfp="vim ~/.config/polybar/config"
+alias cfd="vim ~/.Xdefaults"
+# DO NOT DELETE LMAO
+
 #new line
 export PS1="\[\033[38;5;81m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;10m\][\w]\[$(tput sgr0)\]\[\033[38;5;15m\] \\$ \[$(tput sgr0)\]"

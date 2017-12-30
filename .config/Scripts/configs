@@ -1,0 +1,12 @@
+cfb	~/.bashrc
+cfz	~/.zshrc
+cfv	~/.config/Scripts/vimrc
+cfr	~/.config/ranger/rc.conf.base
+cfi	~/.config/i3/config
+cfq	~/.config/qutebrowser/config.py
+cff	~/.config/Scripts/folders
+cfc	~/.config/Scripts/configs
+cft	~/.config/termite/config
+cfT	~/.config/Scripts/tmux.conf
+cfp	~/.config/polybar/config
+cfd	~/.Xdefaults
