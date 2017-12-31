@@ -5,10 +5,10 @@
 
 !! black
 *color0: #1e1e1e
-*color8: #f381813
+*color8: #1e1e1e
 !! red
-*color1: #607d8b
-*color9: #607d8b
+*color1: #ff895d
+*color9: #ff895d
 !! green
 *color2: #80ef91
 *color10: #80ef91
@@ -16,17 +16,17 @@
 *color3: #ee2b47
 *color11: #ee2b47
 !! blue
-*color4: #78c2c3
-*color12: #78c2c3
+*color4: #a1d9ff
+*color12: #a1d9ff
 !! magenta
-*color5: #2fc5c1
-*color13: #2fc5cc
+*color5: #fff1c1
+*color13: #fff1c1
 !! cyan
 *color6: #849561
 *color14: #849561
 !! white
-*color7: #222222
-*color15: #ffffff
+*color7: #d5eeff
+*color15: #d5eeff
 
 !! URXVT
 URxvt.internalBorder:  	10
@@ -42,5 +42,5 @@ URxvt.url-launcher:	/usr/bin/xdg-open
 URxvt.matcher.button:	1
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
-URxvt.colorUL: #4682B4
+URxvt.colorUL:#4682B4
 rofi.opacity:		"85"
