@@ -15,6 +15,8 @@ My current desktop
 - GTK: `Flatabulous-wal`
 - Icons: `Arc`
 - Application Launcher: `rofi`
+- File Manager: `ranger`
+- Bar: `polybar`
 - Music Player: `spotify (web)` + `cmus`
 - Notifications: `dunst`
 - Shell: `bash`

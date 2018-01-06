@@ -10,3 +10,4 @@ cft	~/.config/termite/config
 cfT	~/.config/Scripts/tmux.conf
 cfp	~/.config/polybar/config
 cfd	~/.Xdefaults
+cfn	~/.config/dunst/config
