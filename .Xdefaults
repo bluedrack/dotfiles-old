@@ -31,7 +31,7 @@
 !! URXVT
 URxvt.internalBorder:  	10
 URxvt.intensityStyles: 	true	
-URxvt.background:       [80]#000000
+!!URxvt.background:       [80]#000000
 URxvt.depth:		32
 URxvt.font: 		xft:Source Code Pro Medium:size=12
 URxvt.scrollBar:	false
@@ -42,5 +42,5 @@ URxvt.url-launcher:	/usr/bin/xdg-open
 URxvt.matcher.button:	1
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
-URxvt.colorUL:#4682B4
-rofi.opacity:		"85"
+URxvt.colorUL:#a1d9ff
+rofi.opacity:		"0"

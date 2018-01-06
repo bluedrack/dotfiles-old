@@ -15,7 +15,7 @@ for_window [class="^.*"] border pixel 0
 gaps inner 5 
 gaps outer 5
 exec compton -CG
-exec feh --bg-scale ~/wallpaper/current/*
+#exec feh --bg-scale ~/wallpaper/current/*
 set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -219,5 +219,6 @@ bindsym $mod+F2 exec light -A 10 # increase screen brightness
 bindsym $mod+F1 exec light -U 10 # decrease screen bright
 exec_always --no-startup-id "killall polybar;polybar example"
 exec --no-startup-id blueman-applet
+exec_always --no-startup-id wal -a 90 -i wallpaper/current/*
 exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
 
