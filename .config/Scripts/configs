@@ -1,7 +1,7 @@
 cfb	~/.bashrc
 cfz	~/.zshrc
 cfv	~/.config/Scripts/vimrc
-cfr	~/.config/ranger/rc.conf.base
+cfr	~/.config/ranger/rc.conf
 cfi	~/.config/i3/config
 cfq	~/.config/qutebrowser/config.py
 cff	~/.config/Scripts/folders

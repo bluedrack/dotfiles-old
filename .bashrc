@@ -169,7 +169,7 @@ alias cf="cd ~/.config && ls -a"
 alias cfb="vim ~/.bashrc"
 alias cfz="vim ~/.zshrc"
 alias cfv="vim ~/.config/Scripts/vimrc"
-alias cfr="vim ~/.config/ranger/rc.conf.base"
+alias cfr="vim ~/.config/ranger/rc.conf"
 alias cfi="vim ~/.config/i3/config"
 alias cfq="vim ~/.config/qutebrowser/config.py"
 alias cff="vim ~/.config/Scripts/folders"
@@ -178,6 +178,7 @@ alias cft="vim ~/.config/termite/config"
 alias cfT="vim ~/.config/Scripts/tmux.conf"
 alias cfp="vim ~/.config/polybar/config"
 alias cfd="vim ~/.Xdefaults"
+alias cfn="vim ~/.config/dunst/config"
 # DO NOT DELETE LMAO
 
 #new line
