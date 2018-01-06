@@ -40,6 +40,7 @@ URxvt.perl-ext-common:	default,matcher,resize-font
 URxvt.perl-lib:		$HOME/.config/Scripts
 URxvt.url-launcher:	/usr/bin/xdg-open
 URxvt.matcher.button:	1
+URxvt.saveLines: 20000
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
 !!URxvt.colorUL:#a1d9ff
