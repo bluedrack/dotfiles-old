@@ -42,5 +42,5 @@ URxvt.url-launcher:	/usr/bin/xdg-open
 URxvt.matcher.button:	1
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
-URxvt.colorUL:#a1d9ff
+!!URxvt.colorUL:#a1d9ff
 rofi.opacity:		"0"
