@@ -178,7 +178,7 @@ alias cft="vim ~/.config/termite/config"
 alias cfT="vim ~/.config/Scripts/tmux.conf"
 alias cfp="vim ~/.config/polybar/config"
 alias cfd="vim ~/.Xdefaults"
-alias cfn="vim ~/.config/dunst/config"
+alias cfn="vim ~/.config/dunst/dunstrc"
 # DO NOT DELETE LMAO
 
 #new line
