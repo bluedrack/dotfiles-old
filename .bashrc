@@ -114,7 +114,7 @@ if ! shopt -oq posix; then
 fi
 
 #Edit a projet with code
-alias C='code .'
+alias C='code-insiders .'
 alias A='atom .'
 
 #Edit todo
@@ -151,6 +151,7 @@ alias rmt='rm -rf ~/.Trash/*'
 
 #Create file from exemples
 alias mklp='cp ~/.exemples/latex/paper.tex'
+alias info='neofetch --backend "w3m" --source wallpaper/current/*'
 
 # DO NOT DELETE LMAO
 alias h="cd ~ && ls -a"
