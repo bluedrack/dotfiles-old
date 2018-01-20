@@ -1,0 +1,12 @@
+#!/bin/bash
+filename=$1
+fChange=${filename%%.*}
+file="$1"
+aux="$1.aux"
+latex $file
+latex $file
+bibtex $fChange
+latex $file
+latex $file
+pdflatex $file
+exit 0
