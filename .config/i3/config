@@ -12,7 +12,7 @@ set $ter urxvt
 
 hide_edge_borders both
 for_window [class="^.*"] border pixel 0 
-gaps inner 5 
+gaps inner 10 
 gaps outer 5
 exec compton -CG
 #exec feh --bg-scale ~/wallpaper/current/*
@@ -215,13 +215,13 @@ bindsym $mod+F6 exec kbdlight up 10
 bindsym $mod+F10 exec amixer set Master toggle 
 bindsym $mod+F11 exec amixer set Master 10%-
 bindsym $mod+F12 exec amixer set Master 10%+
-bindsym $mod+F2 exec light -A 10 
 # increase screen brightness
-bindsym $mod+F1 exec light -U 10 
+bindsym $mod+F2 exec light -A 10 
 # decrease screen bright
+bindsym $mod+F1 exec light -U 10
+
 exec_always --no-startup-id "killall polybar;polybar example"
 exec --no-startup-id blueman-applet
 exec_always --no-startup-id  wal -a 90 -i ~/wallpaper/current/* -o "~/.config/Scripts/wal-set" 
 exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
-# exec_always --no-startup-id "killall dunst; . ~/.config/Scripts/wal-set"
 exec --no-startup-id redshift-gtk
