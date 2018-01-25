@@ -22,9 +22,9 @@ nmap <C-k> :bp!<CR>
 
 autocmd FileType html nnoremap <F10> :!firefox<Space>%<CR><CR>
 autocmd FileType javascript nnoremap ;e a.addEventListener('<++>',(e) => {<CR><TAB><++><CR>})<ESC>
-autocmd FileType markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o<Space><C-r>%<Backspace><Backspace>pdf<CR><CR>
+autocmd FileType markdown nnoremap <C-p> :!pandoc<Space>-s<Space><C-r>%<space>-o<Space><C-r>%<Backspace><Backspace>pdf<CR><CR><CR>
 
-autocmd FileType tex nnoremap <C-p> :!latexCompiler<Space>%<CR><CR>
+autocmd FileType tex nnoremap <C-p> :!latex-compiler<Space>%<CR><CR>
 autocmd FileType tex nnoremap <C-o> :!evince<Space>'%:t:r'.pdf<Space>&<CR><CR>
 autocmd FileType tex imap ;ge \newglossaryentry{<++>}{<CR><Tab>name=<++>,<CR>description={<++>}<CR><Backspace>}<ESC><Space><Space>
 autocmd FileType tex imap ;s \section{<++>}<CR><++><ESC><Space><Space>
