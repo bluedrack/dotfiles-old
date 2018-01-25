@@ -221,7 +221,7 @@ bindsym $mod+F1 exec light -U 10
 # decrease screen bright
 exec_always --no-startup-id "killall polybar;polybar example"
 exec --no-startup-id blueman-applet
-exec_always --no-startup-id  wal -a 90 -i wallpaper/current/* -o ".config/Scripts/wal-set" 
+exec_always --no-startup-id  wal -a 90 -i ~/wallpaper/current/* -o "~/.config/Scripts/wal-set" 
 exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
 # exec_always --no-startup-id "killall dunst; . ~/.config/Scripts/wal-set"
 exec --no-startup-id redshift-gtk

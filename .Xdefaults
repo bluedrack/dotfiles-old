@@ -44,4 +44,5 @@ URxvt.saveLines: 20000
 URxvt.resize-font.smaller:	C-Down
 URxvt.resize-font.bigger:	C-Up
 !!URxvt.colorUL:#a1d9ff
+rofi.color-enable: true
 rofi.opacity: 0
