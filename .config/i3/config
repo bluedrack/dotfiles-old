@@ -11,7 +11,7 @@
 set $ter urxvt 
 
 hide_edge_borders both
-for_window [class="^.*"] border pixel 0 
+for_window [class="^.*"] border pixel 3
 gaps inner 10 
 gaps outer 5
 exec compton -CG
@@ -177,19 +177,20 @@ mode "resize" {
 }
 
 bindsym $mod+Ctrl+r mode "resize"
-
-set $bg-color 	         #0C1523
-set $inactive-bg-color   #0C1523
+set_from_resource $bg-color i3wm.color1
+#set $bg-color 	         #0C1523
+set_from_resource $inactive-bg-color i3wm.color0
+#set $inactive-bg-color   #0C1523
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #ee2b47
 
 # window colors
 #                       border              background         text                 indicator
-client.focused          $bg-color           $bg-color          $text-color          #00ff00
-client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color  #00ff00
-client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color  #00ff00
-client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #00ff00
+client.focused          $bg-color           $bg-color          $text-color          #0C1523
+client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color #0C1523
+client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #0C1523
+client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #0C1523
 
 # bar
 #bar {
