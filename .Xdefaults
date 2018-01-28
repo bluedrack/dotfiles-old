@@ -29,7 +29,7 @@
 *color15: #d5eeff
 
 !! URXVT
-URxvt.internalBorder:  	10
+URxvt.internalBorder:   5
 URxvt.intensityStyles: 	true	
 !!URxvt.background:       [80]#000000
 URxvt.depth:		32

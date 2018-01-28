@@ -5,6 +5,7 @@ set number
 set relativenumber
 "execute pathogen#infect()
 set encoding=utf-8
+set tabstop=4
 syntax on
 "let g:airline_theme='bubblegum'
 "let g:airline#extensions#tabline#enabled = 1
