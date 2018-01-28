@@ -113,7 +113,7 @@ set $ws6 "6"
 set $ws7 "7" 
 set $ws8 "8" 
 set $ws9 "9" 
-set $ws10 "10: " 
+set $ws10 "10: " 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
