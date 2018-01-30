@@ -1,0 +1,6 @@
+
+! State:           bg, fg, bg2,  hlbg, hlfg
+rofi.color-normal: #{color0.strip}, {foreground}, #{color0.strip},   {color1},   {color15}
+rofi.color-active: #{color0.strip}, {foreground}, #{color0.strip},   {color1},   {color15}
+rofi.color-urgent: #{color0.strip}, {color1}, #{color0.strip}, {color1}, {foreground}
+rofi.color-window: #{color0.strip}, #{color0.strip}, #{color0.strip}
