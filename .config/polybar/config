@@ -292,10 +292,10 @@ label = %date% %time%
 type = internal/volume
 
 format-volume = <label-volume> <bar-volume>
-label-volume =  
+label-volume = "salut" 
 label-volume-foreground = ${root.foreground}
 
-format-muted-prefix = " "
+format-muted-prefix = "salut "
 format-muted-foreground = ${colors.foreground-alt}
 label-muted = muted
 
