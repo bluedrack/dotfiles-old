@@ -12,7 +12,7 @@ My current desktop
 - OS: `Arch Linux`
 - AUR Package Manager: `trizen`
 - Colorsheme Generator: `pywal`
-- GTK: `Flatabulous-wal`
+- GTK: `oomox-wal`
 - Icons: `Arc`
 - Application Launcher: `rofi`
 - File Manager: `ranger`
