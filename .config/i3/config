@@ -1,11 +1,3 @@
-#
-# Should you change your keyboard layout some time, delete
-# this file and re-run i3-config-wizard(1).
-#
-
-# i3 config file (v4)
-#
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
 # Author Bluedrack28
 
 set $ter urxvt 
@@ -15,17 +7,13 @@ for_window [class="^.*"] border pixel 3
 gaps inner 10 
 gaps outer 5
 exec compton -CG
-#exec feh --bg-scale ~/wallpaper/current/*
 set $mod Mod4
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 
-#font pango:System San Francisco Display 10
-#font pango:Gohu Regular 10
-#font pango: Font Awesome 5 Free
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
-#font pango:DejaVu Sans Mono 8
 
 # Before i3 v4.8, we used to recommend this one as the default:
 # font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
@@ -38,18 +26,11 @@ set $mod Mod4
 floating_modifier $mod
 
 # start a terminal
-#bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Return exec $ter
 bindsym $mod+r exec $ter -e ranger
 # kill focused window
 bindsym $mod+Shift+q kill
 bindsym $mod+q 	kill
-# start dmenu (a program launcher)
-# bindsym $mod+d exec dmenu_run
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
@@ -178,9 +159,7 @@ mode "resize" {
 
 bindsym $mod+Ctrl+r mode "resize"
 set_from_resource $bg-color i3wm.color1
-#set $bg-color 	         #0C1523
 set_from_resource $inactive-bg-color i3wm.color0
-#set $inactive-bg-color   #0C1523
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
 set $urgent-bg-color     #ee2b47
@@ -191,23 +170,6 @@ client.focused          $bg-color           $bg-color          $text-color      
 client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-color $inactive-bg-color 
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #0C1523
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #0C1523
-
-# bar
-#bar {
-#
-#	font pango:Source Code Pro Medium, FontAwesome 10
-#	status_command i3blocks -c ~/.config/i3/i3blocks.conf
-#	tray_padding 0
-#	height 20
-#	colors {
-#		background $bg-color
-#	    	separator #757575
-#		#                  border             background         text
-#		focused_workspace  $bg-color          $bg-color          $text-color
-#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-#		urgent_workspace   $bg-color          $bg-color          $urgent-bg-color
-#	}
-#}
 
 bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11" -bw 3 
 bindsym F11 reload
@@ -222,7 +184,7 @@ bindsym $mod+F2 exec light -A 10
 bindsym $mod+F1 exec light -U 10
 
 bindsym $mod+Shift+x exec i3lock-next "RANDOM !!!"
-exec_always --no-startup-id "killall polybar;polybar example"
+exec --no-startup-id exec ~/.config/Scripts/launch_polybar.sh
 exec --no-startup-id blueman-applet
 exec_always --no-startup-id wal -a 90 -i ~/wallpaper/current/* -o "~/.config/Scripts/wal-set" 
 exec_always --no-startup-id wal -g
