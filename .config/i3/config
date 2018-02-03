@@ -9,6 +9,9 @@ gaps outer 5
 exec compton -CG
 set $mod Mod4
 
+
+
+font pango:"Font Awesome 5 12" 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 
@@ -93,7 +96,7 @@ set $ws5 "5"
 set $ws6 "6" 
 set $ws7 "7" 
 set $ws8 "8" 
-set $ws9 "9" 
+set $ws9 "9: " 
 set $ws10 "10: " 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -184,10 +187,12 @@ bindsym $mod+F2 exec light -A 10
 bindsym $mod+F1 exec light -U 10
 
 bindsym $mod+Shift+x exec i3lock-next "RANDOM !!!"
-exec --no-startup-id exec ~/.config/Scripts/launch_polybar.sh
-exec --no-startup-id blueman-applet
-exec_always --no-startup-id wal -a 90 -i ~/wallpaper/current/* -o "~/.config/Scripts/wal-set" 
-exec_always --no-startup-id wal -g
-exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
-exec --no-startup-id redshift-gtk
+exec --no-startup-id blueman-applet &
+exec_always --no-startup-id wal -a 90 -i ~/wallpaper/current/* -o "~/.config/Scripts/wal-set" & 
+exec_always --no-startup-id wal -g &
+exec_always --no-startup-id exec killall polybar &
+exec_always --no-startup-id exec ~/.config/Scripts/launch_polybar.sh &
+exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1' &
+exec --no-startup-id redshift-gtk &
+exec --no-startup-id nm-applet
 
