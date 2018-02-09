@@ -10,6 +10,7 @@ bashshortcuts = ""
 home = str(Path.home())+"/"
 rangerlocation=home+".config/ranger/rc.conf"
 bashlocation=home+".bashrc"
+fishlocation=home+".config/fish/config.fish"
 #qutelocation=home+".config/qutebrowser/config.py"
 
 
@@ -28,7 +29,7 @@ with open(home+".config/Scripts/folders") as fold:
         rangershortcuts+=("map m"+line[0]+" shell mv %s "+line[1]+"\n")
         rangershortcuts+=("map Y"+line[0]+" shell cp -r %s "+line[1]+"\n")
         #Adds the bashshortcuts shortcuts:
-        bashshortcuts+=("alias "+line[0]+"=\"cd "+line[1]+" && ls -a\"\n")
+        bashshortcuts+=("alias "+line[0]+"=\"cd "+line[1]+"; ls -a\"\n")
         #qutebrowser shortcuts:
         #quteshortcuts+="config.bind(';"+line[0]+"', 'set downloads.location.directory "+line[1]+" ;; hint links download')\n"
 
@@ -60,5 +61,6 @@ def writeShortcuts(location, shortcuts):
 
 writeShortcuts(rangerlocation, rangershortcuts)
 writeShortcuts(bashlocation, bashshortcuts)
+writeShortcuts(fishlocation, bashshortcuts)
 #writeShortcuts(qutelocation, quteshortcuts)
 

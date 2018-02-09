@@ -15,6 +15,10 @@ set spelllang=fr
 " Config of the shortcut
 "set shell=/bin/bash\ -i
 "map <C-n> :NERDTreeToggle<CR>
+call plug#begin('~/.vim/plugged')
+Plug 'dylanaraps/wal.vim'
+call plug#end()
+colorscheme wal
 nmap cor :set spell<CR>
 nmap ncor :set nospell<CR>
 nnoremap <Space><Space> <Esc>/<++><CR>"_c4l

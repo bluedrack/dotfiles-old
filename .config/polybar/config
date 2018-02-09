@@ -54,9 +54,9 @@ font-0 = Source Code Pro:pixelsize=10;1
 ;font-1 = unifont:fontformat=truetype:size=8:antialias=false
 ;font-1 = "FontAwesome:antialias=true:size=10;1"
 ;font-1 = ""Font Awesome 5 Free":antialias=true:size=10"
-font-1 = "Font Awesome 5 Free:style=Regular:size=10;1"
-font-2 = "Font Awesome 5 Free:style=Solid:size=10;1"
-font-3 = "Font Awesome 5 Brands:style=Regular:size=10;1"
+font-1 = "Font Awesome 5 Free:style=Regular:size=10;2"
+font-2 = "Font Awesome 5 Free:style=Solid:size=10;2"
+font-3 = "Font Awesome 5 Brands:style=Regular:size=10;2"
 modules-left = i3
 modules-center = xwindow  
 modules-right = volume wlan battery date 
@@ -289,7 +289,7 @@ format-prefix-foreground = ${colors.foreground-alt}
 label = %date% %time%
 
 [module/volume]
-type = internal/volume
+type = internal/alsa
 
 format-volume = <ramp-volume> <label-volume>
 label-volume-foreground = ${root.foreground}
