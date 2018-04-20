@@ -1,7 +1,6 @@
 # Author Bluedrack28
 
-set $ter urxvt 
-
+set $ter urxvt
 hide_edge_borders both
 for_window [class="^.*"] border pixel 3
 gaps inner 10 
@@ -29,7 +28,7 @@ font pango:"Font Awesome 5 12"
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec $ter
+bindsym $mod+Return exec $ter -e fish
 bindsym $mod+r exec $ter -e ranger
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -188,12 +187,10 @@ bindsym $mod+F2 exec light -A 10
 bindsym $mod+F1 exec light -U 10
 
 bindsym $mod+Shift+x exec i3lock-next "RANDOM !!!"
-exec --no-startup-id blueman-applet &
-exec_always --no-startup-id wal -a 90 -i ~/wallpaper/current/* -o "~/.config/Scripts/wal-set" & 
-exec_always --no-startup-id wal -g &
-exec_always --no-startup-id exec killall polybar &
-exec_always --no-startup-id exec ~/.config/Scripts/launch_polybar.sh &
-exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1' &
+exec --no-startup-id blueman-applet
+exec_always --no-startup-id wal -a 90 -i ~/wallpaper/current/* -o ~/.config/scripts/wal-set
+exec_always --no-startup-id wal -g 
+exec --no-startup-id exec ~/.config/scripts/launch_polybar.sh
+exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
 exec --no-startup-id redshift-gtk &
 exec --no-startup-id nm-applet & 
-

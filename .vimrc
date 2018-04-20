@@ -1,5 +1,6 @@
 set laststatus=2
 set nocompatible
+filetype plugin on
 set t_Co=16
 set number
 set relativenumber
@@ -18,12 +19,13 @@ set spelllang=fr
 call plug#begin('~/.vim/plugged')
 Plug 'dylanaraps/wal.vim'
 call plug#end()
+let g:grammalecte_cli_py='~/Téléchargements/grammalecte/pythonpath/cli.py'
 colorscheme wal
 nmap cor :set spell<CR>
 nmap ncor :set nospell<CR>
 nnoremap <Space><Space> <Esc>/<++><CR>"_c4l
-nmap <C-l> :bn!<CR>
-nmap <C-k> :bp!<CR>
+"nmap <C-l> :bn!<CR>
+"nmap <C-k> :bp!<CR>
 
 autocmd FileType html nnoremap <F10> :!firefox<Space>%<CR><CR>
 autocmd FileType javascript nnoremap ;e a.addEventListener('<++>',(e) => {<CR><TAB><++><CR>})<ESC>

@@ -1,5 +1,6 @@
+@import url('file:///home/bluedrack/.cache/wal/colors.css');
 .main {
-    background-color: #0C1323;
+    background-color: var(--color0);
     color: white;
     font-family: "Source Code Pro";
 }
@@ -11,7 +12,7 @@
     display: block;
     text-align: center;
     margin: 0 auto;
-    color: white;
+    color: var(--color1);
 
 }
 
@@ -29,10 +30,10 @@ ul {
 }
 a { 
     text-decoration: none;
-    color : white;
+    color : var(--color0);
     margin: 10;
     display: inline-block;
     display: block;
     padding: 20px;
-    background-color: rgb(40, 53, 82);
+    background-color: var(--color4);
 }
