@@ -190,7 +190,17 @@ bindsym $mod+Shift+x exec i3lock-next "RANDOM !!!"
 exec --no-startup-id blueman-applet
 exec_always --no-startup-id wal -a 90 -i ~/wallpaper/current/* -o ~/.config/scripts/wal-set
 exec_always --no-startup-id wal -g 
-exec --no-startup-id exec ~/.config/scripts/launch_polybar.sh
+exec_always --no-startup-id exec ~/.config/scripts/launch_polybar.sh
 exec --no-startup-id i3-msg 'workspace $ws3; exec' $ter' -e ranger; workspace $ws1'
 exec --no-startup-id redshift-gtk &
 exec --no-startup-id nm-applet & 
+
+for_window [class="Devtools"] floating enable
+
+# quick terminal
+
+for_window [instance="calendar"] floating enable
+for_window [instance="calendar"] resize set 800 600
+for_window [instance="calendar"] move scratchpad
+exec --no-startup-id $ter -name calendar -e calcurse 
+bindsym $mod+c [instance="calendar"] scratchpad show; [instance="calendar"] move position center
