@@ -28,12 +28,13 @@
 *color7: #d5eeff
 *color15: #d5eeff
 
+
 !! URXVT
 URxvt.internalBorder:   5
 URxvt.intensityStyles: 	true	
 !!URxvt.background:       [80]#000000
 URxvt.depth:		32
-URxvt.font: 		xft:Source Code Pro Medium:size=12
+URxvt.font: 		xft:Operator Mono Medium:size=12
 URxvt.scrollBar:	false
 URxvt.cursorColor:	white
 URxvt.perl-ext-common:	default,matcher,resize-font

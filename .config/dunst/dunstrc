@@ -1,5 +1,5 @@
 [global]
-font = Source Code Pro 11
+font = Operator Mono 12
 
 # Allow a small subset of html markup:
 #   <b>bold</b>

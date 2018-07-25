@@ -174,7 +174,7 @@ client.unfocused        $inactive-bg-color  $inactive-bg-color $inactive-text-co
 client.focused_inactive $inactive-bg-color  $inactive-bg-color $inactive-text-color #0C1523
 client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color          #0C1523
 
-bindsym $mod+d exec rofi -show run  -font "Source Code Pro Medium 11" -bw 3 -display-run "> " 
+bindsym $mod+d exec rofi -show run  -font "Operator Mono 11" -bw 3 -display-run "> " 
 bindsym F11 reload
 bindsym $mod+F5 exec kbdlight down 10
 bindsym $mod+F6 exec kbdlight up 10
